@@ -4,10 +4,6 @@ class CargoWagon < Wagon
 
   alias fill_space reserve_space
 
-  def fill_space(delta)
-    reserve_space(delta)
-  end
-
   def size_error
     SIZE_ERROR
   end

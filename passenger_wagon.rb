@@ -4,10 +4,6 @@ class PassengerWagon < Wagon
 
   alias take_a_seat reserve_space
 
-  def take_a_seat
-    reserve_space(1)
-  end
-
   def reserve_space(_value = 1)
     super(1)
   end
